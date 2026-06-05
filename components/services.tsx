@@ -34,7 +34,7 @@ export function Services() {
           </p>
           <div className="flex items-end justify-between">
             <h2 className="font-heading text-4xl sm:text-5xl text-[#0D1B2A] leading-tight max-w-sm text-balance">
-              Un cabinet de confiance
+              Ce qu&apos;on fait, concrètement
             </h2>
             <div className="hidden md:block h-px flex-1 bg-[#D4CEBC] ml-10 mb-3" />
           </div>

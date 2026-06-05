@@ -19,22 +19,27 @@ export function Navbar() {
           : 'bg-transparent'
       }`}
     >
-      <nav className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
-        <a
-          href="#hero"
-          className="font-heading text-lg tracking-[0.12em] uppercase text-[#0D1B2A]"
-        >
-          SJS Management
+      <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="#hero" className="flex items-center gap-3">
+          <span className="font-heading text-base tracking-[0.08em] text-[#0D1B2A]">
+            sjs management
+          </span>
+          <span className="hidden sm:block h-4 w-px bg-[#D4CEBC]" />
+          <span className="hidden sm:block font-sans text-xs tracking-[0.18em] uppercase text-[#B8973E] font-medium">
+            Experts-Comptables
+          </span>
         </a>
         <div className="hidden md:flex items-center gap-8">
           {[
             { label: 'Services', href: '#services' },
+            { label: 'Missions', href: '#missions' },
+            { label: 'FAQ', href: '#faq' },
             { label: 'Contact', href: '#contact' },
           ].map(({ label, href }) => (
             <a
               key={label}
               href={href}
-              className="text-sm tracking-widest uppercase text-[#5A6475] hover:text-[#0D1B2A] transition-colors duration-200"
+              className="text-xs tracking-widest uppercase text-[#5A6475] hover:text-[#0D1B2A] transition-colors duration-200"
             >
               {label}
             </a>

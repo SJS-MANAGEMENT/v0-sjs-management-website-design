@@ -17,11 +17,11 @@ export function Hero() {
           Experts-Comptables · sjsmanagement.fr
         </p>
 
-        {/* Firm name */}
+        {/* Slogan */}
         <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-[#0D1B2A] leading-[1.05] tracking-tight text-balance mb-6">
-          SJS
+          Vos chiffres,
           <br />
-          Management
+          entre de bonnes mains.
         </h1>
 
         {/* Thin rule */}
@@ -33,10 +33,9 @@ export function Hero() {
 
         {/* Tagline */}
         <p className="font-sans text-lg sm:text-xl text-[#5A6475] font-light leading-relaxed text-pretty mb-12 max-w-xl mx-auto">
-          Votre expertise comptable,{' '}
-          <span className="text-[#0D1B2A] font-normal">à votre service.</span>
-          <br className="hidden sm:block" /> Un accompagnement rigoureux, une
-          relation de confiance.
+          SJS Management vous accompagne dans toutes vos{' '}
+          <span className="text-[#0D1B2A] font-normal">obligations comptables, fiscales et juridiques</span>{' '}
+          — avec rigueur, proximité et transparence.
         </p>
 
         {/* CTA buttons */}
